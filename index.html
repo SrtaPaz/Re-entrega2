@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulce Juanitta</title>
+    <!-- Importacion de Fuentes y CCS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/Estilos.css">
+</head>
+
+<body id="arriba">
+    <nav class="navbar navbar-expand-lg bg-pink" style="font-family: 'Cedarville Cursive', cursive;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Dulce Juanitta 🧁</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Paginas/productos.html" role="button" data-bs-toggle="dropdown">Productos</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tortas</a></li>
+                            <li><a class="dropdown-item" href="#">Tartas</a></li>
+                            <li><a class="dropdown-item" href="#">Cupcakes</a></li>
+                          </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Paginas/contacto.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Paginas/Como comprar.html">Como comprar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Paginas/Compra.html">Comprar</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="text-center">
+        <h1> <br>Bienvenidos a Dulce Juanitta <br></h1>
+        <p>Tu lugar para los sabores más dulces y deliciosos</p>
+        <div class="Reproductor Spotify">
+            <iframe style="border-radius:10px" src="https://open.spotify.com/embed/album/5AEDGbliTTfjOB8TSm1sxt?utm_source=generator" width="320" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        </div>
+    </header>
+    <!-- Se crea la Galeria de Imagenes -->
+    <section class="gallery">
+        <div class="row">
+            <div class="col-md-4">
+                <img style="border-radius:10px" src="/multimedia/pastel-delicioso-dulce-fresas-baiser-plato.jpg"
+                    alt="Torta 1" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img style="border-radius:10px" src="/multimedia/surtido-trozos-tarta.jpg" alt="Torta 2"
+                    class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img style="border-radius:10px" src="/multimedia/surtido-trozos-tartsa.jpg" alt="Torta 3"
+                    class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <section class="description container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Descubre Nuestros Sabores</h2>
+                <p>En Dulce Juanitta te ofrecemos una amplia variedad de tortas y postres exquisitos,
+                    elaborados con los mejores ingredientes y con un toque único de creatividad. Cada bocado es una
+                    experiencia de sabor inolvidable. 
+                    En Dulce Juanitta, nos esforzamos por marcar la diferencia en la
+                    vida de las personas a través de nuestras tortas y creaciones dulces.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Calidad y Pasión</h2>
+                <p>Nuestro equipo de expertos pasteleros se dedica a crear auténticas obras maestras que
+                    deleitan no solo el paladar, sino también la vista. Cada torta es una expresión de nuestra
+                    pasión por la repostería.</p>       
+            </div>
+        </div>
+    </section>
+    <section class="videos container mt-4 text-center">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/7pDxwcLi7sc?si=6O1JL1GDxhUhA0QM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <footer class="footer text-center py-2">
+        
+        <a href="#arriba">Volver arriba</a>
+        
+        <div class="redes">
+            <img src="/multimedia/logo-fb.avif" alt="fb">
+            <img src="/multimedia/ig-logo.avif" alt="ig">
+        </div>
+        <div class="wsp">
+            <img src="/multimedia/logo-wp.avif" alt="wp">
+        </div>
+        <p>&copy; 2023 Dulce Juanitta. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
